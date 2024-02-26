@@ -1,0 +1,59 @@
+// View a representation of the schema as a table with column names, column type, and data type.
+F1monza
+| getschema
+
+// Any 10 records
+
+F1monza
+| take 10 
+
+// count of records
+F1monza
+| count
+
+//SQL
+
+EXPLAIN
+SELECT count(*) AS Count FROM F1monza
+
+F1monza
+| summarize Count=toint(count())
+| project Count
+
+// Count of laps in race
+
+F1monza
+| summarize CountOfLaps=count_distinct(lapNum)
+
+F1monza
+| summarize CountofLaps=count_distinct(lapNum)
+
+F1monza
+| summarize max(lap_time) by lapNum
+| project lapNum, LapTime=(max_lap_time * 1s)
+
+// Laptime over race chart
+F1monza
+| summarize max(lap_time) by lapNum
+| project lapNum, LapTimeMinutes=(max_lap_time * 1s)
+| render linechart
+    with (
+    title="Laptime Over Race",
+    xtitle="Lap Number",
+    ytitle="Laptime" 
+    )
+
+F1monza
+| where lapNum == 5
+| project lap_time,  throttle, brake
+| render linechart
+    with (
+    ymin=0,
+    ymax=1,
+    ysplit=panels
+    )
+
+F1monza
+| summarize count() by lap_time, throttle, brake, lapNum, carId, trackId, lap_distance, 
+                        pit_status, race_position, gear, fuel, weather, track_temp, air_temp, tyres_age, 
+                        tyre_wear_0, tyre_wear_1, tyre_wear_2, tyre_wear_3
