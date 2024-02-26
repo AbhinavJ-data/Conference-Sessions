@@ -4,6 +4,12 @@ Thank you for attending the Moneyball session at Data Saturday Munich 2024. Belo
 
 ---
 
+### PowerBI Report:
+
+<iframe title="TelemetryFinal" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=7462a926-c0a6-41fc-8261-a5224726a056&autoAuth=true&ctid=43ad7b98-e4ac-4313-9135-5e9a60cca7f0" frameborder="0" allowFullScreen="true"></iframe>
+
+---
+
 ### 📖 Further Resources:
 
 - 📈 F1 Telemetry with ADX - Microsoft:
