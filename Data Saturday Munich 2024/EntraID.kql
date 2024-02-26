@@ -1,0 +1,22 @@
+Signins
+| take 100
+
+Signins
+| getschema 
+
+Signins
+| count 
+
+EXPLAIN
+SELECT 
+*
+FROM Signins
+
+Signins
+| summarize Count=count() by Location
+| top 10 by Count
+| render columnchart
+
+// Create PBI Report
+Signins
+| summarize Count=count() by DateUTC, User, ['Authentication Protocol'], Application, Location, Status
