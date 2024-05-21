@@ -18,7 +18,7 @@ Thank you for attending my Log Analytics session at DataGrillen 2024. Below you 
   - https://learn.microsoft.com/en-us/azure/azure-monitor/overview
   - Azure Monitor documentation
  
-- 📈 Azure Monitor overview - Microsoft:
+- 📈 Diagnostic Settings - Microsoft:
   - https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/diagnostic-settings
   - Diagnostic settings documentation
 
