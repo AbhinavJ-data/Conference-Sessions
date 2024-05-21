@@ -8,7 +8,7 @@ Thank you for attending my Log Analytics session at DataGrillen 2024. Below you 
 ---
 ### 🖼️ Slides
 
-[The Sixth Sense - Slides](TheSixthSense_LogAnalytics.pdf)
+- [The Sixth Sense - Slides](TheSixthSense_LogAnalytics.pdf)
 
 ---
 
