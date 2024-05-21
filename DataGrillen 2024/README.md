@@ -8,7 +8,7 @@ Thank you for attending my Log Analytics session at DataGrillen 2024. Below you 
 ---
 ### 🖼️ Slides
 
-
+[The Sixth Sense: Using Log Analytics to Efficiently Manage Your Azure Environment](DataGrillen 2024/TheSixthSense_LogAnalytics.pdf)
 
 ---
 
