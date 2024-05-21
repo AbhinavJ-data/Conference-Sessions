@@ -6,7 +6,9 @@ Thank you for attending my Log Analytics session at DataGrillen 2024. Below you 
 - Sessionize: https://sessionize.com/abhi-jayanty/
 
 ---
-### 🖼️ [Slides](TheSixthSense_LogAnalytics.pdf)
+### 🖼️ Slides
+
+[The Sixth Sense - Slides:](TheSixthSense_LogAnalytics.pdf)
 
 ---
 
